@@ -1,0 +1,27 @@
+{
+    "name": "cbb/data-chunker",
+    "autoload": {
+        "psr-4": {
+            "Cbb\\DataChunker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Cbb\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "cbb",
+            "email": "760174781@qq.com"
+        }
+    ],
+    "require": {
+        "symfony/console": "^6.2",
+        "illuminate/database": "^10.4"
+    },
+    "license": "MIT",
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    }
+}
